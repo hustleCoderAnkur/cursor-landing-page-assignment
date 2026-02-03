@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #14120b;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 12px;
+}
+
+.brandName {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 48px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 28px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    color: white;
+    font-weight: 500;
+}
+
+.btn-black {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 6px 12px;
+    border-radius: 16px;
+    border: 1px solid rgb(95, 95, 95);
+}
+
+.btn-white {
+    background-color: white;
+    color: #14120b;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.first-sec {
+    position: relative;
+    top: 150px;
+    left: 120px;
+
+}
+
+.para {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.btn-window {
+    top: 24px;
+    position: relative;
+    align-items: center;
+    color: #14120b;
+    background-color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.section-1 {
+    position: relative;
+    top: 56px;
+}
+
+.temp-container {
+    margin-top: 286px;
+    padding-left: 108px;
+}
+
+.temp-container p {
+    text-align: center;
+    padding: 8px;
+    width: 1224px;
+    max-width: 100%;
+    margin-bottom: 12px;
+    color: white;
+}
+
+.temp-box {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.temp {
+    width: 156px;
+    height: 98px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    border: 1px solid #242119e5;
+    background-color: #1b1913;
+}
+
+.temp img {
+    max-width: 98px;
+}
